@@ -4,7 +4,7 @@ let tracker = 0
 
 function onKeyDown(event) {
 
-  const keycode = event.which
+  const keycode = event.which || event.location
   
 if (keycode === code[tracker]) {
   tracker = tracker + 1
